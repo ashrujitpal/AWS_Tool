@@ -1,0 +1,24 @@
+"""
+Take a look at the code in the problem description where we test if a number is prime.
+Refactor the code and put it into the function below to turn the prime_generator() function into a generator.
+
+Implement your generator so that others can get a prime number generator like this:
+
+g = prime_generator(100)    # g can generate prime numbers under 100
+next(g) # get next prime like this
+
+Reminder: you don't need to change the function name nor the argument
+"""
+
+
+def prime_generator(bound):
+    # your code starts here (delete the pass):
+    for n in range(2, 20):
+        yield n
+
+        for x in list(n):
+            if n % x == 0:
+                print('{} equals {} * {}'.format(n))
+                break
+        else:
+            print('{} is a prime number.'.format(n))
