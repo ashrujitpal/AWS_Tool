@@ -7,6 +7,7 @@ USER_CHOICE = '''
 - Enter 'stop' to stop the EC2 instance(s)
 - Enter 'terminate' to terminate the EC2 instances(s)
 - Enter 'reboot' to reboot the EC2 instance(s)
+- Enter 'list' to list the EC2 instances-state wise
 - Enter "g" to remove unattached volumes
 - Enter "h" to create snapshots of an EC2 instance
 - Enter "i" to prune old snapshots ("n") days old
@@ -25,6 +26,10 @@ while selection != 'q':
         EC2lifecycle.terminate_instances()
     elif selection in 'reboot':
         EC2lifecycle.reboot_instances()
+    elif selection in 'list':
+        EC2lifecycle.list_instances()
+    elif selection in 'h':
+        EC2lifecycle.create_snapshot()
     else:
         print('Unknown command. Please try again.')
 

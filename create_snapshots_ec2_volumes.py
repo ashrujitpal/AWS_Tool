@@ -36,6 +36,6 @@ for reservation in reservations:
             desc = 'Backup of {0}, volume {1}, created {2}'.format(instance_id, volume_id, timestamp)
             print(desc)
 
-            snapshot = (Description=desc)
+            snapshot = ('Description', desc)
             print("Created Snapshot", snapshot.id)
 

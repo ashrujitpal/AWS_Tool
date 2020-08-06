@@ -10,7 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eb4f681-34ce-4df0-9ac8-305f3c21d0b0" name="Default Changelist" comment="" />
+    <list default="true" id="1eb4f681-34ce-4df0-9ac8-305f3c21d0b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws/ec2/lifecycle_ec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws/ec2/lifecycle_ec2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws/ec2/list_ec2_instances.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws/ec2/list_ec2_instances.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_snapshots_ec2_volumes.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_snapshots_ec2_volumes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec2_maintenance.py" beforeDir="false" afterPath="$PROJECT_DIR$/ec2_maintenance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_ec2_instances.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_ec2_instances.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -36,7 +45,7 @@
       <recent name="C:\Users\USER\PycharmProjects\AWS_CommandLine_Tool" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.list_ec2_instances">
     <configuration name="ec2_maintenance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AWS_CommandLine_Tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,8 +67,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="list_ec2_instances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AWS_CommandLine_Tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_ec2_instances.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.list_ec2_instances" />
         <item itemvalue="Python.ec2_maintenance" />
       </list>
     </recent_temporary>
@@ -87,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="422" y="96" key="FileChooserDialogImpl" timestamp="1596641593635">
@@ -97,22 +129,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="478" y="239" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1596641787998" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1596641795366">
+    <state width="1259" height="279" key="GridCell.Tab.0.bottom" timestamp="1596716595253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596641795366" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1596641795366">
+    <state width="1259" height="279" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596716595253" />
+    <state width="1259" height="279" key="GridCell.Tab.0.center" timestamp="1596716595252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596641795366" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1596641795365">
+    <state width="1259" height="279" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596716595252" />
+    <state width="1259" height="279" key="GridCell.Tab.0.left" timestamp="1596716595252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596641795365" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1596641795366">
+    <state width="1259" height="279" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596716595252" />
+    <state width="1259" height="279" key="GridCell.Tab.0.right" timestamp="1596716595252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596641795366" />
+    <state width="1259" height="279" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596716595252" />
+    <state width="1259" height="182" key="GridCell.Tab.1.bottom" timestamp="1596715811840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="182" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596715811840" />
+    <state width="1259" height="182" key="GridCell.Tab.1.center" timestamp="1596715811840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="182" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1596715811840" />
+    <state width="1259" height="182" key="GridCell.Tab.1.left" timestamp="1596715811840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="182" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1596715811839" />
+    <state width="1259" height="182" key="GridCell.Tab.1.right" timestamp="1596715811840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="182" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1596715811840" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1596641812625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
